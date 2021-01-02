@@ -1,22 +1,27 @@
+
 public class deneme {
 
-	public static long prime (long a, long i) {
-		
-		while (a<=i) {
-			
-			if (i % a ==0)
-				
-				System.out.println(a);
-				a++;
-		}
-		return 0;
-}
-	
 	public static void main(String[] args) {
-		long i = 36,a = 2,b=0,c=0;
 		
-		prime(a,i);
-		prime(a,i);
+		
+		int counter =10001;
+		for(long i=2;i<=counter;i++)
+		{
+			for(long j=2;j<=i;j++)
+			{
+				if(j==i) {
+					System.out.println(i);
+					counter--;
+				}
+				if(i%j==0) {
+					break;
+				}
+			}
+		}
+		
+		
+		
+		
 	}
 
 }

@@ -1,5 +1,5 @@
 
-public class euler7 {
+public class methods {
 
 	public static boolean isPrime (long number) {
 		int counter=0;
@@ -29,10 +29,10 @@ public class euler7 {
 		
 	public static void main(String[] args) {
 		
-		//long start = System.currentTimeMillis();
+		long start = System.currentTimeMillis();
 		System.out.println(tenthousandandone(10001));
-		//long end = System.currentTimeMillis();
-		//System.out.println("sec"+ (double)(end-start) );
+		long end = System.currentTimeMillis();
+		System.out.println("sec"+ (double)(end-start) );
 		
 
 	}
